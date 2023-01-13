@@ -1,0 +1,25 @@
+{
+  "name": "mikser-core-mapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "peerDependencies": {
+    "mikser-core": "^1.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almero-digital-marketing/mikser-core-mapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/almero-digital-marketing/mikser-core-mapper/issues"
+  },
+  "homepage": "https://github.com/almero-digital-marketing/mikser-core-mapper#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "morphism": "^1.12.3"
+  }
+}
