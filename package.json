@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/almero-digital-marketing/mikser-core-mapper#readme",
   "dependencies": {
+    "jsonata": "^2.0.1",
     "lodash": "^4.17.21",
     "morphism": "^1.12.3"
   }
