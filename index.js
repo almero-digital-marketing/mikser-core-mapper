@@ -9,7 +9,7 @@ onProcess(() => {
     for (let { match, schema, map, expression, use = 'meta' } of mikser.config.mapper?.mappers || []) {        
         const entities = useOperations([constants.OPERATION_CREATE, constants.OPERATION_UPDATE])
         .map(operation => operation.entity)
-        .filter(entity => entity.meta && _.matches(entity, match))
+        .filter(entity => entity.meta && _.isMatch(entity, match))
 
         if (expression) {
             expression = jsonata(expression)
